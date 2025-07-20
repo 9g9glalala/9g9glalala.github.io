@@ -9,20 +9,11 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "テキストと鯨飲",
-    head: `
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFFWH0Y07G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EFFWH0Y07G');
-    `
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'google', tagId: 'EFFWH0Y07G',
+      provider: 'google', tagId: 'G-EFFWH0Y07G',
     },
     locale: "ja-JP",
     baseUrl: "quartz.jzhao.xyz",
