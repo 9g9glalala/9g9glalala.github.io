@@ -10,9 +10,6 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "テキストと鯨飲",
     pageTitleSuffix: "",
-    head: `
-    <meta name="google-site-verification" content="wbhf8_eH8BWksnFkthX8eozvVzAmif1_Pmp_JnZssVo" />
-    `
     enableSPA: true,
     enablePopovers: true,
     analytics: {
