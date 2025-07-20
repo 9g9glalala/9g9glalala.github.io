@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'goatcounter', websiteId: 'https://9g9glalala.goatcounter.com/count',
+      provider: 'goatcounter', websiteId: '9g9glalala',
     },
     locale: "ja-JP",
     baseUrl: "quartz.jzhao.xyz",
