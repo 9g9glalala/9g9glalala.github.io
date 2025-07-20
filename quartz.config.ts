@@ -9,6 +9,15 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "テキストと鯨飲",
+    head: `
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFFWH0Y07G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EFFWH0Y07G');
+    `
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
