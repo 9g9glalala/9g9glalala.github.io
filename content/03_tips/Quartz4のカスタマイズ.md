@@ -92,4 +92,4 @@ p {
 
 そのため、メタタグ`<meta name="google-site-verification"......`の挿入で対応することにした。しかし、Quartz 4は直接HTMLをいじれる構造ではないため、メタタグが挿入される設定ファイルをいじる必要があった。
 
-その設定ファイル`Head.tsx`だった。このファイルをメタタグ`<meta name="google-site-verification"......`を挿入することでちゃんとHTMLに反映された。もちろんSearch Consoleも認識してくれた。
+その設定ファイル`Head.tsx`だった。このファイルにメタタグ`<meta name="google-site-verification"......`を挿入することでちゃんとHTMLに反映された。もちろんSearch Consoleも認識してくれた。
